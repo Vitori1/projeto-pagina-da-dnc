@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    /*background-color: black;*/
+    font-family: 'inter';
+}
+#lo{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+#titulo-menu-superior{
+    margin: 50px;
+    margin-left: 45px;
+}
+#texto-menu-superior{
+    margin: 40px;
+    margin-left: 45px;
+    padding-bottom: 80px;
+}
+#divmenu-superior{
+    background-image: url(imagens/imagen-de-fundo.svg);
+    color: antiquewhite;
+    
+}
+#menu-de-informacao{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+.texto-de-informacao{
+    display: flex;
+    align-items: center;
+}
+#depoimento{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#titulo-depoimento{
+    color: #247BA0;
+}
+#video{
+    margin: 50px 50px 50px 100px;
+}
+#texto-depoimento-e-video{
+    margin: 50px 50px 50px 100px;
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 60px;
+}
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 20px;
+}
+#seta-para-esquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    margin: 55%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+#formulario{
+    text-align: center;
+}
+#titulo-form{
+    font-size: 25px;
+    color: #383838;
+    margin: 30px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 10px;
+    border: 0%;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+button{
+    background-color: #247BA0;
+    height: 40px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    width: 300px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #315fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 20px 40px #315eb879;
+}
