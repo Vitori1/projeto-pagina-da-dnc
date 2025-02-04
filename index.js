@@ -5,11 +5,11 @@ var Samantha = window.document.getElementById("samantha")
 var setaParaEsquerda = window.document.getElementById("seta-para-esquerda")
 
 function RolarParaDireita() {
-    Bruna.style = "display:flex"
+    
     Leonardo.style = "display:none"
     setaParaDireita.style = "display:none"
     setaParaEsquerda.style = "display:flex; margin-top: 55px"
-
+    Bruna.style = "display:flex"
     
 }
 
